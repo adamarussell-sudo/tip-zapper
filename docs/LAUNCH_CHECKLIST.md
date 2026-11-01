@@ -48,4 +48,4 @@ Every tip link (the extension badge, the README, the repo's Sponsor button) poin
 ## 7. After launch
 
 - [ ] Watch [Issues](https://github.com/adamarussell-sudo/tip-zapper/issues) for "Report it" bug reports. When Amazon changes its checkout page, the debug info is how the fix gets made.
-- [ ] For each fix, bump the version in `extension/manifest.json` and `package.json`, add a `CHANGELOG.md` entry, run `npm test && npm run build`, attach the zips to a new GitHub release, and upload the new zip to each store. Store users update automatically.
+- [ ] For each fix, bump the version in `extension/manifest.json` and `package.json`, add a `CHANGELOG.md` entry, and push. Then publish a GitHub release tagged `v<version>`. The *Release zips* action builds and attaches both zips on its own. Upload the new zip to each store, and store users update automatically.
