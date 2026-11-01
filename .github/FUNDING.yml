@@ -1,0 +1,6 @@
+# Powers the "Sponsor" button on the repo page.
+# Every tip link points at the 6foot5.com page, so switching platforms means editing one page.
+custom: ["https://6foot5.com/tip-zapper/"]
+
+# Once the Ko-fi page exists, uncomment and fill in the handle:
+# ko_fi: your-handle

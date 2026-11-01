@@ -1,0 +1,40 @@
+name: Bug report
+description: Tip Zapper didn't zap the tip, zapped the wrong thing, or the badge went gray or red.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. The debug info is what makes these fixable.
+        On the checkout page, click **Report it** (or **Copy debug info**) on the Tip Zapper badge and paste the result below.
+        Give it a quick look first. It should only contain the tip section of the page.
+  - type: textarea
+    id: debug
+    attributes:
+      label: Debug info
+      description: Paste what the badge copied. It starts with "Tip Zapper debug".
+      render: text
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      placeholder: The badge said "Can't read a tip amount" and the tip stayed at $5.00.
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Brave
+        - Edge
+        - Firefox
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Tip Zapper version
+      description: Shown at the top of the badge, like v1.3.0.

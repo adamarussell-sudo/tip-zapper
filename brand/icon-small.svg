@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <title>Tip Zapper (16px)</title>
+  <!-- At 16px the coin turns to mush, so the small icon is the bolt alone -->
+  <rect width="128" height="128" rx="28" fill="#1E4B57"/>
+  <path d="M68 6 L30 74 H58 L44 122 L98 50 H70 L90 6 Z" fill="#E0A53B" stroke="#F0E2C4" stroke-width="6" stroke-linejoin="round"/>
+</svg>
