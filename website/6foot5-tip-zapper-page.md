@@ -7,7 +7,8 @@ A WordPress page draft for **https://6foot5.com/tip-zapper/**. The extension, RE
 - **Slug:** `tip-zapper`
 - **Status:** Draft until Adam approves it
 - **Image:** `docs/images/icon-512.png`, uploaded to the media library
-- **Placeholders to swap before publishing:** `ICON-URL` (the uploaded icon's address from the media library), `KO-FI-LINK`, plus the store links once they're live
+- **Tip jar:** https://ko-fi.com/aruss
+- **Placeholders to swap before publishing:** `ICON-URL` (the uploaded icon's address from the media library), plus the store links once they're live
 
 Written to the site style sheet and voice sheet: first person, point up front, a dry joke riding on a true point, no position taken on tipping, network-TV clean.
 
@@ -80,7 +81,7 @@ Paste this into the WordPress editor's **Code editor** view (⋮ menu → Code e
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="KO-FI-LINK">Leave a tip on Ko-fi</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://ko-fi.com/aruss">Leave a tip on Ko-fi</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 

@@ -49,7 +49,7 @@ Tip Zapper is a free, independent, open-source project. It isn't affiliated with
 
 **Images:** icon from `store/images/icon-128.png`. Screenshots: the three `store/images/screenshot-*.png` files.
 
-**Contributions URL:** AMO only accepts links to a short list of payment sites in this field, so use your Ko-fi page (`https://ko-fi.com/<your-handle>`), not the 6foot5.com page. If AMO rejects it, leave the field empty and the tip jar link in the README covers it.
+**Contributions URL:** AMO only accepts links to a short list of payment sites in this field, so use the Ko-fi page (`https://ko-fi.com/aruss`), not the 6foot5.com page. If AMO rejects it, leave the field empty and the tip jar link in the README covers it.
 
 ## Notes to reviewer
 

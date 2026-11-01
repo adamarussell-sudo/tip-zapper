@@ -1,6 +1,4 @@
 # Powers the "Sponsor" button on the repo page.
-# Every tip link points at the 6foot5.com page, so switching platforms means editing one page.
+# The 6foot5.com page is the main tip jar link; Ko-fi is the payment page behind it.
 custom: ["https://6foot5.com/tip-zapper/"]
-
-# Once the Ko-fi page exists, uncomment and fill in the handle:
-# ko_fi: your-handle
+ko_fi: aruss

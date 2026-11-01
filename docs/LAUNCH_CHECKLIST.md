@@ -4,17 +4,17 @@ Everything between "code on GitHub" and "anyone can install it in two clicks", i
 
 ## 1. GitHub
 
-- [ ] **Social preview image.** Repo → Settings → General → Social preview → upload `docs/images/banner.png`. GitHub doesn't allow setting this through the API.
-- [ ] **About box.** It should already show the description, the 6foot5.com/tip-zapper link and topics. Fix it with the gear icon if not.
+- [x] **Social preview image.** Repo → Settings → General → Social preview → upload `docs/images/banner.png`. GitHub doesn't allow setting this through the API.
+- [x] **About box.** It should already show the description, the 6foot5.com/tip-zapper link and topics. Fix it with the gear icon if not.
 
 ## 2. Tip jar (Ko-fi)
 
 Ko-fi takes **0%** of one-off tips on the free plan. You only pay the payment processor's cut: about 2.9% + 30¢ through Stripe, or PayPal's rate. Buy Me a Coffee takes 5% on top of that, which is why Ko-fi is the pick.
 
-- [ ] Sign up at [ko-fi.com](https://ko-fi.com) and claim a page name, ideally `ko-fi.com/6foot5`.
-- [ ] Connect PayPal or Stripe for payouts, under Settings → Payments.
+- [x] Sign up at [ko-fi.com](https://ko-fi.com) and claim a page name: **ko-fi.com/aruss**.
+- [ ] Connect PayPal or Stripe for payouts, under Settings → Payment. (Stripe connected and pending activation.) Don't publish the 6foot5.com page until payments are active.
 - [ ] Set the "coffee" price ($3 or $5) and a one-line description. Turn off Shop and Memberships if you don't want them.
-- [ ] Put your Ko-fi link in the 6foot5.com page (step 3) and uncomment `ko_fi:` in `.github/FUNDING.yml`.
+- [x] Ko-fi link added to the 6foot5.com page draft and `.github/FUNDING.yml`.
 - [ ] Tips are income, so keep the Ko-fi payout history for tax time.
 
 *Later, optional:* [GitHub Sponsors](https://github.com/sponsors) also takes 0% from personal sponsors and adds a native Sponsor button, but it needs an application and a bank account, and your sponsors need GitHub accounts. Ko-fi covers everyone else.
